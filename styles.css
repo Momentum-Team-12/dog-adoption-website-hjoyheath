@@ -1,4 +1,9 @@
 
+.container{
+    display: flex;
+    background-color: pink;
+    width: 50%;
+}
 
 h1{
     background-color: #004175;
@@ -9,4 +14,15 @@ h1{
 }
 ul,li{
     list-style:none;
+}
+
+.adoptnow{
+    display:flex;
+    background-color:pink;
+    width: 30%;
+}
+
+.adoptnowb{
+    display:flex;
+    background-color:blue;
 }
