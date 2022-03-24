@@ -1,11 +1,5 @@
 .visible{
-    font-family: "Open-Sans" "Oswald" sans-serif;
-}
-
-.container{
-    display: flex;
-    background-color: pink;
-    width: 50%;
+    font-family: "Open-Sans", "Oswald";
 }
 
 h1{
@@ -22,23 +16,66 @@ ul,li{
 .adoptnow{
     display:flex;
     background-color:pink;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
 }
-
-.adoptnowb{
+.box ul li{
+    border-radius: 5em;
+    background-color:#89DEEF;
+    margin: 0 3px 3px;
+}
+/* .adoptnowb{
     display:flex;
-    background-color:blue;
+    background-color:blue; */
     
-}
+/* } */
 
-.adoptnowc{
+/* .adoptnowc{
     display:flex;
-    background-color:aquamarine;
+    background-color:aquamarine; */
     
-}
-.box1{
-    align-content:space-around;
+/* } */
+/* .box1{
+    justify-content:space-between;
+    padding:5px;
 }
 
 .box2{
-    align-content:space-around
+    justify-content:space-between;
+    padding:5px;
 }
+
+.box3{
+    justify-content:space-between;
+    padding:5px;
+}
+
+.box4{
+    justify-content:space-between;
+    padding:5px;
+}
+
+.box5{
+    justify-content:space-between;
+    padding:5px;
+}
+.box6{
+    justify-content:space-between;
+    padding:5px;
+}
+
+.box7{
+    justify-content:space-between;
+    padding:5px;
+}
+
+.box8{
+    justify-content:space-between;
+    padding:5px;
+}
+
+.box9{
+    justify-content:space-between;
+    padding:5px;
+} */
