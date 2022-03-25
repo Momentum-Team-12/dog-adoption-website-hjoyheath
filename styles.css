@@ -24,9 +24,21 @@ ul,li{
 .box ul li{
     border-radius: 7em;
     background-color:#89DEEF;
-    margin: 0 3px 3px;
+    margin: 0 2px 2px;
     display:inline-flex;
     flex-wrap:wrap;
-    justify-content:space-evenly;
+    justify-content:space-between;
     align-items: flex-start;
+}
+
+.box{
+    border: 5px solid black;
+    padding: none;
+    display: inline;
+    
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
 }
