@@ -85,6 +85,40 @@ footer{
     height: 300px;
     line-height: 300px;
     background: #A6A9F0;
+
+}
+
+#donate {
+    background: 
+    linear-gradient(
+        rgba(113, 109, 178,0.45),
+        rgba(113, 109, 178, 0.45)
+    ), 
+    url('./images/donate.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#volunteer {
+    background:
+    linear-gradient(
+        rgba(113, 109, 178,0.45),
+        rgba(113, 109, 178, 0.45)
+    ), 
+    url('./images/volunteer.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#location {
+    background:
+    linear-gradient(
+        rgba(113, 109, 178,0.45),
+        rgba(113, 109, 178, 0.45)
+    ), 
+    url('./images/location.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
