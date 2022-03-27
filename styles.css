@@ -44,8 +44,6 @@ main{
     display: flex;
     flex-direction:column;
     margin: 0;
-    /* width: 31%; */
-    gap: 20px;
     flex: 1 0 33%;
 }
 
@@ -54,7 +52,7 @@ h3{
 }
 
 .dog-card img{
-    width:100%;
+    width:95%;
 }
 
 .dog-card ul{
